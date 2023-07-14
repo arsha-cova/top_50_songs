@@ -25,8 +25,7 @@ As a result, combining the intermediate files gives us the final result text fil
 
 ![3](https://github.com/arsha-cova/top_50_songs/assets/59336004/fa45312f-48ba-48b8-bf18-1a8057dc0794)
 
-
-#### libraries
+### libraries
 Before running the scripts, you need to be sure you have already installed the following python libraries:
 -datetime 
 - time
@@ -34,7 +33,7 @@ Before running the scripts, you need to be sure you have already installed the f
 - ujson
 - psutil
 
-#### Process Automation
+### Process Automation
 to schedule the processes to run every day in a Linux environment, we need to run the two following commands: 
 
 - echo "0 0 * * * path /Process_Automation.sh" > mycron
