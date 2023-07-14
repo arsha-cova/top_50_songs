@@ -7,7 +7,7 @@ We are receiving each day in a folder, a text file named listen-YYYYMMDD.log tha
 -	There is a row per stream (1 listening). 
 -	Each row is in the following format: sng_id|user_id|country
   
-      With:  
+   With:  
       -	sng_id: Unique song identifier, an integer.
       -	user_id: Unique user identifier, an integer. 
       -	country: 2 characters string upper case that matches the country ISO code (Ex: FR, GB, ...). 
