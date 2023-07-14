@@ -8,7 +8,7 @@ we are receiving each day in a folder, a text file named listen-YYYYMMDD.log tha
 -	Each row is in the following format: sng_id|user_id|country
   
 With:  
-  	~ sng_id: Unique song identifier, an integer. 
+  	~ sng_id: Unique song identifier, an integer.
   	~ user_id: Unique user identifier, an integer. 
   	~ country: 2 characters string upper case that matches the country ISO code (Ex: FR, GB, ...). 
 
