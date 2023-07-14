@@ -2,8 +2,8 @@
 
 In this project we have developed scripts in python that will send each user the top 50 songs for their country as well as their own personal top 50 songs of the last 7 days.
 
-## project description
-we are receiving each day in a folder, a text file named listen-YYYYMMDD.log that contains the logs of all listening streams made on that date. These logs are formatted as follows: 
+## Project description
+We are receiving each day in a folder, a text file named listen-YYYYMMDD.log that contains the logs of all listening streams made on that date. These logs are formatted as follows: 
 -	There is a row per stream (1 listening). 
 -	Each row is in the following format: sng_id|user_id|country
   
