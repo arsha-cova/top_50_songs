@@ -8,9 +8,9 @@ We are receiving each day in a folder, a text file named listen-YYYYMMDD.log tha
 -	Each row is in the following format: sng_id|user_id|country
   
 With:  
-  	- sng_id: Unique song identifier, an integer.
-  	- user_id: Unique user identifier, an integer. 
-  	- country: 2 characters string upper case that matches the country ISO code (Ex: FR, GB, ...). 
+-	sng_id: Unique song identifier, an integer.
+-	user_id: Unique user identifier, an integer. 
+-	country: 2 characters string upper case that matches the country ISO code (Ex: FR, GB, ...). 
 
 To extract the top 50 songs for a given day d, we need to use the 7 log files for the previous days d-1, d-2, ...,d-7. In this case, each log file of a single day will be processed 7 times to calculate the top 50 songs for the following 7 days. 
 In order to optimize the time and improve the performance of our solution, we propose that each day as soon as a new log file arrives, we process it and save the results in an intermediate file which we then use to find the top 50 songs for the following 7 days.
