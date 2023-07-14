@@ -20,7 +20,7 @@ In order to optimize the time and improve the performance of our solution, we pr
 ![1](https://github.com/arsha-cova/top_50_songs/assets/59336004/124ce12b-c7cb-43a8-99ba-6803f29d7a68)
 
 
-As a result
+As a result, combining the intermediate files gives us the final result text file: country_top50_YYYYMMDD.txt
 
 
 ![3](https://github.com/arsha-cova/top_50_songs/assets/59336004/fa45312f-48ba-48b8-bf18-1a8057dc0794)
