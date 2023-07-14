@@ -45,6 +45,7 @@ to schedule the processes to run every day in a Linux environment, we need to ru
 
 - echo "0 0 * * * path /Process_Automation.sh" > mycron
 - crontab mycron
+
 You need to replace "path/" with the actual path of the shell script.
 We can modify  "0 0 * * *" to update the programed time to execute the bash file.
 
