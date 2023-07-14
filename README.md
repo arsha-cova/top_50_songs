@@ -14,3 +14,12 @@ We are receiving each day in a folder, a text file named listen-YYYYMMDD.log tha
 
 To extract the top 50 songs for a given day d, we need to use the 7 log files for the previous days d-1, d-2, ...,d-7. In this case, each log file of a single day will be processed 7 times to calculate the top 50 songs for the following 7 days. 
 In order to optimize the time and improve the performance of our solution, we propose that each day as soon as a new log file arrives, we process it and save the results in an intermediate file which we then use to find the top 50 songs for the following 7 days.
+
+
+![1](https://github.com/arsha-cova/top_50_songs/assets/59336004/124ce12b-c7cb-43a8-99ba-6803f29d7a68)
+
+
+
+the second 
+
+
