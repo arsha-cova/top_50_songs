@@ -12,7 +12,7 @@ start_time = time.time()
 
 
 # we define all the necessary paths
-path="h:\\Desktop\\Deezer_Top_50_Songs\\"
+path="C:\\Users\\medam\\OneDrive\\Bureau\\Deezer_Top_50_Songs\\"
 log_folder=path+"input\\log_files\\"
 intermediary_files=path+"input\\intermediary_files\\"
 output_path=path+"output\\"
